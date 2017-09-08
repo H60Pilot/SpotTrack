@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+ <Document>
+    <Style id="icon">
+        <IconStyle>
+          <Icon>
+            <href>http://maps.google.com/mapfiles/kml/shapes/cabs.png</href>
+          </Icon>
+        </IconStyle>
+    </Style>
+   <Style id="red">
+        <IconStyle>
+          <Icon>
+            <href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href>
+          </Icon>
+        </IconStyle>
+    </Style> 
+  <Placemark>
+    <styleUrl>#icon</styleUrl>
+    <name>RDC</name>
+    <description>Attached to the ground. Intelligently places itself 
+       at the height of the underlying terrain.</description>
+    <Point>
+      <coordinates>-72.096004,41.345634,0</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <styleUrl>#red</styleUrl>
+    <name>Boat Yard</name>
+    <description>Attached to the ground. Intelligently places itself 
+       at the height of the underlying terrain.</description>
+    <Point>
+      <coordinates>-72.100804,41.348395,0</coordinates>
+    </Point>
+  </Placemark>
+ </Document> 
+</kml>
